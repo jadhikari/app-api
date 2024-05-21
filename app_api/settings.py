@@ -136,8 +136,6 @@ STATIC_URL = '/static/'
 # Directory where Django will look for static files
 STATICFILES_DIRS = [BASE_DIR / 'static']
 
-# Directory where collectstatic will collect static files for production
-STATIC_ROOT = BASE_DIR / 'staticfiles'
 
 # Media files
 MEDIA_URL = '/media/'
